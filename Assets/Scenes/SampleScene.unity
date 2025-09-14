@@ -435,12 +435,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7dc17f81d71527b4388b983498078356, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  useMousePosition: 1
-  raycastDistance: 50
-  raycastDrawAlpha: 0.75
-  highlightMaterial: {fileID: 0}
-  _targetRenderer: {fileID: 0}
-  _targetOriginalMaterial: {fileID: 0}
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0

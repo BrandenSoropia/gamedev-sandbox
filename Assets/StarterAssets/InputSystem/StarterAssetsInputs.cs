@@ -46,10 +46,10 @@ namespace StarterAssets
 			SprintInput(value.isPressed);
 		}
 
-		// Custom!
+		// Custom! Seems to be a requirement that the On... functions have call an property setter.
 		public void OnToggleMouseVisibility(InputValue value)
 		{
-			CursorLocked(value.isPressed);
+			ToggleCursorLockedAndLook(value.isPressed);
 		}
 #endif
 
@@ -85,9 +85,10 @@ namespace StarterAssets
 		}
 
 		// Custom!
-		private void CursorLocked(bool newCursorLockedState)
+		private void ToggleCursorLockedAndLook(bool newCursorLockedState)
 		{
 			cursorLocked = !cursorLocked;
+			cursorInputForLook = !cursorInputForLook;
 
 			SetCursorState(cursorLocked);
 
