@@ -9,7 +9,9 @@ using UnityEngine.InputSystem;
 Requirements:
 - Animation controller with all movement animations set, transitions defined with conditions.
   - Can reverse animations by setting speed to a negative number.
+  - Animations must be set to play forward/backward in editor
 - Use matching transition condition parameter names between this script and the editor.
+- Have a ANIM_SPEED parameter and set all affected animations to use it
 
 Idea: Design simple all direction movement animation. Can get complicated if we have more than forward/back and left/right.
 */
