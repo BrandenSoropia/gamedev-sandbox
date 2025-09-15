@@ -54,7 +54,7 @@ public class RaycastSimple : MonoBehaviour
         // Limit collision detection to Furniture tagged GameObjects only
         if (Physics.Raycast(ray, out hit, raycastDistance, LayerMask.GetMask("Furniture")))
         {
-            Debug.Log("Hit: " + hit.transform.name);
+            // Debug.Log("Hit: " + hit.transform.name);
 
             _targetRenderer = hit.transform.GetComponent<Renderer>();
 
