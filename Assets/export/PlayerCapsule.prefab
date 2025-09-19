@@ -46,7 +46,6 @@ GameObject:
   - component: {fileID: 3920223674541007020}
   - component: {fileID: 493030228222352761}
   - component: {fileID: 7865015448551729769}
-  - component: {fileID: 93495752197062241}
   - component: {fileID: 8458780016891450044}
   - component: {fileID: 4260338377666475930}
   m_Layer: 8
@@ -163,6 +162,7 @@ MonoBehaviour:
   analogMovement: 0
   cursorLocked: 1
   cursorInputForLook: 1
+  isOverheadViewEnabled: 0
 --- !u!114 &7865015448551729769
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -261,14 +261,6 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
---- !u!33 &93495752197062241
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7892947364345689007}
-  m_Mesh: {fileID: 1520134072285805179, guid: fcbae086a1dc5af4280801d687df146a, type: 3}
 --- !u!23 &8458780016891450044
 MeshRenderer:
   m_ObjectHideFlags: 0

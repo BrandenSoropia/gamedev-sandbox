@@ -50,6 +50,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "ToggleOverheadView",
+                    "type": "Button",
+                    "id": "03de00e5-a63d-4556-a49b-7ff8ca0215fc",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -237,6 +246,28 @@
                     "processors": "",
                     "groups": ";KeyboardMouse",
                     "action": "ToggleMouseVisibility",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e5ed689e-3463-40c1-97f8-e7674d776c8d",
+                    "path": "<Gamepad>/select",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Gamepad",
+                    "action": "ToggleOverheadView",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c222ab31-1245-4d12-a484-480df0e29ea4",
+                    "path": "<Keyboard>/tab",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";KeyboardMouse",
+                    "action": "ToggleOverheadView",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
